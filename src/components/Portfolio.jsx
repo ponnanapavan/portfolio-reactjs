@@ -6,9 +6,22 @@ import foodrecipe from "../assets/foodrecipe.png"
 import gpt3 from "../assets/gpt3.png";
 import reduxtoolkit from "../assets/reduxtoolkit.png"
 import ecommerce from "../assets/ecommerce.png"
+import foodrecipemern from "../assets/foodrecipemern.png"
+import vrworld from "../assets/vrworld.png"
 const Portfolio = () => {
   const portfolios = [
-    
+    {
+      id:7,
+      src:foodrecipemern,
+      demo:"https://foodrecipe-mern-client-qcx7.vercel.app/",
+      code:"https://github.com/ponnanapavan/foodrecipe-mern-client"
+    },
+    {
+       id:8,
+       src:vrworld,
+       demo:"https://github.com/ponnanapavan/react-vr-world",
+       code:"https://react-vr-world.vercel.app/"
+    },
     {
       id: 1,
       src: movieapp,
@@ -46,7 +59,8 @@ const Portfolio = () => {
       src:ecommerce,
       demo:"https://github.com/ponnanapavan/eccomerceapi",
       code:"https://github.com/ponnanapavan/eccomerceapi"
-    }
+    },
+   
   ];
 
   return (

@@ -21,8 +21,8 @@ const Portfolio = () => {
     {
        id:8,
        src:vrworld,
-       demo:"https://github.com/ponnanapavan/react-vr-world",
-       code:"https://react-vr-world.vercel.app/",
+       demo:"https://react-vr-world.vercel.app/",
+       code:"https://github.com/ponnanapavan/react-vr-world",
        title:"React VR"
     },
     {

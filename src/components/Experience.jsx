@@ -9,6 +9,7 @@ import mongodb from '../assets/mongoDb.png'
 import expressjs from '../assets/expressjs.png'
 import nodejs from '../assets/nodejs.png'
 import dsa from '../assets/dsa.png'
+import flask from '../assets/flask.png'
 const Experience = () => {
     const skills=[
         {
@@ -75,6 +76,12 @@ const Experience = () => {
             src:dsa,
             title:'DSA',
             style:'shadow-violet-500'
+        },
+        {
+            id:11,
+            src:flask,
+            title:'Flask',
+            style:'shadow-white'
         }
     ]
   return (

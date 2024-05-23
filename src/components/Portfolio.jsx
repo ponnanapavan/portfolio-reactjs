@@ -9,8 +9,18 @@ import ecommerce from "../assets/ecommerce.png"
 import foodrecipemern from "../assets/foodrecipemern.png"
 import vrworld from "../assets/vrworld.png"
 import blog from "../assets/blog.png"
+import friendsstore from '../assets/friends store.png'
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 2,
+      src: whatsapp,
+      demo: "https://chat-app-websitemern.onrender.com/",
+      code:"https://github.com/ponnanapavan/chat-mern-website.git",
+      title:"Mern Chat_app"
+
+    },
+    
     {
       id:7,
       src:foodrecipemern,
@@ -19,11 +29,33 @@ const Portfolio = () => {
       title:"FullStack Foodrecipe"
     },
     {
+      id:6,
+      src:ecommerce,
+      demo:"https://github.com/ponnanapavan/eccomerceapi",
+      code:"https://github.com/ponnanapavan/eccomerceapi",
+      title:"FullStack Ecommerce"
+    },
+    {
+      id:5,
+      src:blog,
+      demo:"https://github.com/ponnanapavan/mern_client",
+      code:"https://github.com/ponnanapavan/mern_client",
+      title:"FullStack Blog"
+},
+    {
        id:8,
        src:vrworld,
        demo:"https://react-vr-world.vercel.app/",
        code:"https://github.com/ponnanapavan/react-vr-world",
        title:"React VR"
+    },
+    {
+        id:9,
+        src:friendsstore,
+        demo:'https://python-basic-curd-fullstack-project.onrender.com/',
+        code:'https://github.com/ponnanapavan/python_basic_curd_fullstack_project',
+        title:'python fullstack friends store'
+
     },
     {
       id: 1,
@@ -33,14 +65,7 @@ const Portfolio = () => {
       title:"ReactJs MovieApp"
     },
     
-    {
-      id: 2,
-      src: whatsapp,
-      demo: "https://chat-app-websitemern.onrender.com/",
-      code:"https://github.com/ponnanapavan/chat-mern-website.git",
-      title:"Mern Chat_app"
-
-    },
+    
     
     {
       id: 3,
@@ -56,20 +81,8 @@ const Portfolio = () => {
       code:"https://github.com/ponnanapavan/gpt3-modern-layout.git",
       title:"ReactJs Modern Layout"
     },
-    {
-          id:5,
-          src:blog,
-          demo:"https://github.com/ponnanapavan/mern_client",
-          code:"https://github.com/ponnanapavan/mern_client",
-          title:"FullStack Blog"
-    },
-    {
-      id:6,
-      src:ecommerce,
-      demo:"https://github.com/ponnanapavan/eccomerceapi",
-      code:"https://github.com/ponnanapavan/eccomerceapi",
-      title:"FullStack Ecommerce"
-    },
+    
+   
    
   ];
 

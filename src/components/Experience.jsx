@@ -12,6 +12,7 @@ import dsa from '../assets/dsa.png'
 import flask from '../assets/flask.png'
 const Experience = () => {
     const skills=[
+        
         {
             id:1,
             src:html,

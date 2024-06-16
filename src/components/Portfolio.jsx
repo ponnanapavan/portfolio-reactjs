@@ -10,8 +10,17 @@ import foodrecipemern from "../assets/foodrecipemern.png"
 import vrworld from "../assets/vrworld.png"
 import blog from "../assets/blog.png"
 import friendsstore from '../assets/friends store.png'
+import socialmedia from '../assets/socialmedia.png'
 const Portfolio = () => {
   const portfolios = [
+    {
+       id:12,
+       src:socialmedia,
+       demo:"https://mern-social-media-8o31.onrender.com/",
+       code:"https://github.com/ponnanapavan/mern-social-media",
+       title:"FullStack Social Media"
+
+    },
     {
       id: 2,
       src: whatsapp,
